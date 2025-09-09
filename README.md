@@ -1,6 +1,6 @@
 ### Reg
 
-[1;2QAutomating registration
+new
 
 ### Installation
 

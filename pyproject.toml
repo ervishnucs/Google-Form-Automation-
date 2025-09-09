@@ -1,9 +1,9 @@
 [project]
 name = "reg"
 authors = [
-    { name = "v", email = "ervishnucs369@gmail.com"}
+    { name = "vishnu", email = "ervishnucs369@gmail.com"}
 ]
-description = "[1;2QAutomating registration"
+description = "new"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

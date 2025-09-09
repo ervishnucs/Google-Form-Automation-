@@ -1,7 +1,7 @@
 app_name = "reg"
 app_title = "Reg"
-app_publisher = "v"
-app_description = "[1;2QAutomating registration"
+app_publisher = "vishnu"
+app_description = "new"
 app_email = "ervishnucs369@gmail.com"
 app_license = "mit"
 
