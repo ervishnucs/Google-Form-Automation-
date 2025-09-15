@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:student_name",
+ "creation": "2025-09-11 11:23:52.272400",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_0udp",
+  "student_name",
+  "department",
+  "phone_no",
+  "emailid",
+  "register_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_0udp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Link",
+   "label": "Student Name ",
+   "options": "Students",
+   "unique": 1
+  },
+  {
+   "fetch_from": "student_name.department",
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department "
+  },
+  {
+   "fetch_from": "student_name.phone_no",
+   "fieldname": "phone_no",
+   "fieldtype": "Data",
+   "label": "Phone No"
+  },
+  {
+   "fetch_from": "student_name.email_id",
+   "fieldname": "emailid",
+   "fieldtype": "Data",
+   "label": "Email ID"
+  },
+  {
+   "fetch_from": "student_name.register_no",
+   "fieldname": "register_no",
+   "fieldtype": "Data",
+   "label": "Register No"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-09-11 11:43:01.600930",
+ "modified_by": "Administrator",
+ "module": "Reg",
+ "name": "Student Details",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
